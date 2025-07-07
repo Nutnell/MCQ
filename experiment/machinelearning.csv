@@ -1,0 +1,6 @@
+MCQ,Choices,Correct
+What is machine learning?,a: A field of study in artificial intelligence concerned with the development and study of statistical algorithms | b: A type of computer hardware | c: A programming language | d: A type of software application,a
+Which field does machine learning find application in?,"a: Biology | b: Natural language processing, computer vision, speech recognition | c: Chemistry | d: Physics",b
+What is the foundation of machine learning?,a: Chemistry | b: Statistics and mathematical optimization | c: Biology | d: Physics,b
+What is data mining focused on?,a: Exploratory data analysis via supervised learning | b: Exploratory data analysis via unsupervised learning | c: Predictive analytics | d: Natural language processing,b
+What framework provides a theoretical viewpoint for describing machine learning?,a: Probably approximately correct learning | b: Deep learning | c: Neural networks | d: Data mining,a
