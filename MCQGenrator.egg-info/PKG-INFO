@@ -1,0 +1,13 @@
+Metadata-Version: 2.4
+Name: MCQGenrator
+Version: 0.0.1
+Author: Nutnell
+Author-email: nutnell00@gmail.com
+Requires-Dist: openai
+Requires-Dist: langchain
+Requires-Dist: streamlit
+Requires-Dist: python-dotenv
+Requires-Dist: Pypdf
+Dynamic: author
+Dynamic: author-email
+Dynamic: requires-dist
