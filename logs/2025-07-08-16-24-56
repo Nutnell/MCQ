@@ -1,0 +1,13 @@
+[2025-07-08 16:26:17,701] 1025 httpx-INFO-HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 500 Internal Server Error"
+[2025-07-08 16:26:17,703] 1061 openai._base_client-INFO-Retrying request to /chat/completions in 0.411883 seconds
+[2025-07-08 16:27:20,075] 1025 httpx-INFO-HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+[2025-07-08 16:28:20,936] 1025 httpx-INFO-HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+[2025-07-08 16:31:18,411] 1025 httpx-INFO-HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+[2025-07-08 16:32:02,764] 1025 httpx-INFO-HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+[2025-07-08 16:36:17,908] 1025 httpx-INFO-HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+[2025-07-08 16:37:46,819] 1025 httpx-INFO-HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+[2025-07-08 16:51:47,474] 1025 httpx-INFO-HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+[2025-07-08 16:53:10,556] 1025 httpx-INFO-HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+[2025-07-08 16:59:06,436] 1025 httpx-INFO-HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+[2025-07-08 17:00:06,154] 1025 httpx-INFO-HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+[2025-07-08 17:11:30,460] 1025 httpx-INFO-HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"

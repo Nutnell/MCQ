@@ -1,0 +1,120 @@
+[2025-07-08 17:26:56,384] 108 root-INFO-Attempt 1: Generating quiz...
+[2025-07-08 17:27:01,540] 1025 httpx-INFO-HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+[2025-07-08 17:27:01,564] 117 root-INFO-Raw LLM quiz output content:
+{
+  "1": {
+    "no": "1",
+    "mcq": "What is the purpose of defining goals before designing a website?",
+    "options": {
+      "a": "To make the website visually appealing",
+      "b": "To shape the design and functionality",
+      "c": "To increase server load",
+      "d": "To reduce browser compatibility"
+    },
+    "correct": "b"
+  },
+  "2": {
+    "no": "2",
+    "mcq": "Which feature of JavaScript allows for real-time interactions without page reloads?",
+    "options": {
+      "a": "Session Management",
+      "b": "Synchronous Operations",
+      "c": "Asynchronous Operations with AJAX",
+      "d": "Data Encryption"
+    },
+    "correct": "c"
+  },
+  "3": {
+    "no": "3",
+    "mcq": "What is the main advantage of using JavaServer Pages (JSP) in web development?",
+    "options": {
+      "a": "Supports static content only",
+      "b": "Separation of Business Logic and Presentation",
+      "c": "Limited cross-browser compatibility",
+      "d": "Does not allow for dynamic content generation"
+    },
+    "correct": "b"
+  }
+}
+[2025-07-08 17:27:01,565] 139 root-ERROR-An unexpected error occurred during quiz generation on attempt 1: 'dict' object has no attribute 'dict'
+[2025-07-08 17:27:01,565] 143 root-INFO-Retrying in 2 seconds...
+[2025-07-08 17:27:03,565] 108 root-INFO-Attempt 2: Generating quiz...
+[2025-07-08 17:27:07,283] 1025 httpx-INFO-HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+[2025-07-08 17:27:07,288] 117 root-INFO-Raw LLM quiz output content:
+{
+    "1": {
+        "no": "1",
+        "mcq": "What is the purpose of defining the goals of a website before designing it?",
+        "options": {
+            "a": "To increase server load",
+            "b": "To shape the design and functionality",
+            "c": "To limit user interaction",
+            "d": "To restrict browser compatibility"
+        },
+        "correct": "b"
+    },
+    "2": {
+        "no": "2",
+        "mcq": "What is a key feature of JavaServer Pages (JSP)?",
+        "options": {
+            "a": "Static content generation",
+            "b": "Built-in JSP tags",
+            "c": "Limited client-side execution",
+            "d": "Incompatibility with CSS"
+        },
+        "correct": "b"
+    },
+    "3": {
+        "no": "3",
+        "mcq": "What is a benefit of using JavaScript in web development?",
+        "options": {
+            "a": "Decreased server load",
+            "b": "Limited user interaction",
+            "c": "Cross-browser compatibility",
+            "d": "Single-stack development"
+        },
+        "correct": "c"
+    }
+}
+[2025-07-08 17:27:07,289] 139 root-ERROR-An unexpected error occurred during quiz generation on attempt 2: 'dict' object has no attribute 'dict'
+[2025-07-08 17:27:07,289] 143 root-INFO-Retrying in 2 seconds...
+[2025-07-08 17:27:09,291] 108 root-INFO-Attempt 3: Generating quiz...
+[2025-07-08 17:27:15,934] 1025 httpx-INFO-HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+[2025-07-08 17:27:15,938] 117 root-INFO-Raw LLM quiz output content:
+{
+  "1": {
+    "no": "1",
+    "mcq": "What is the purpose of defining goals before designing a website?",
+    "options": {
+      "a": "To ensure proper navigation",
+      "b": "To shape the design and functionality",
+      "c": "To choose the color scheme",
+      "d": "To optimize for mobile responsiveness"
+    },
+    "correct": "b"
+  },
+  "2": {
+    "no": "2",
+    "mcq": "Which feature of JavaScript allows for real-time interaction on web pages?",
+    "options": {
+      "a": "Support for dynamic web content",
+      "b": "Cross-browser compatibility",
+      "c": "Client-side execution",
+      "d": "Asynchronous operations with AJAX"
+    },
+    "correct": "a"
+  },
+  "3": {
+    "no": "3",
+    "mcq": "How does CSS contribute to web development?",
+    "options": {
+      "a": "Enabling server-side scripting",
+      "b": "Improving SEO rankings",
+      "c": "Enhancing visual presentation",
+      "d": "Executing Java code within HTML"
+    },
+    "correct": "c"
+  }
+}
+[2025-07-08 17:27:15,938] 139 root-ERROR-An unexpected error occurred during quiz generation on attempt 3: 'dict' object has no attribute 'dict'
+[2025-07-08 17:27:15,939] 146 root-ERROR-Max retries reached for quiz generation due to unexpected error.

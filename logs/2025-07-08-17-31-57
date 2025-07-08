@@ -1,0 +1,44 @@
+[2025-07-08 17:32:36,616] 108 root-INFO-Attempt 1: Generating quiz...
+[2025-07-08 17:32:46,610] 1025 httpx-INFO-HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+[2025-07-08 17:32:46,654] 117 root-INFO-Raw LLM quiz output content:
+{
+    "1": {
+        "no": "1",
+        "mcq": "What is the purpose of defining goals before designing a website?",
+        "options": {
+            "a": "To make the website look attractive",
+            "b": "To shape the design and functionality",
+            "c": "To increase server load",
+            "d": "To reduce browser compatibility"
+        },
+        "correct": "b"
+    },
+    "2": {
+        "no": "2",
+        "mcq": "Which feature of JavaScript allows for real-time interactions on web pages?",
+        "options": {
+            "a": "Session management",
+            "b": "Cross-browser compatibility",
+            "c": "Asynchronous operations with AJAX and APIs",
+            "d": "Database connectivity"
+        },
+        "correct": "c"
+    },
+    "3": {
+        "no": "3",
+        "mcq": "How does CSS enhance the visual presentation of websites?",
+        "options": {
+            "a": "By handling server-side operations",
+            "b": "By enabling dynamic content generation",
+            "c": "By defining colors, fonts, and backgrounds",
+            "d": "By executing JavaScript functions"
+        },
+        "correct": "c"
+    }
+}
+[2025-07-08 17:32:46,656] 125 root-INFO-Quiz parsed successfully.
+[2025-07-08 17:32:46,657] 154 root-INFO-Starting quiz review...
+[2025-07-08 17:32:48,232] 1025 httpx-INFO-HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+[2025-07-08 17:32:48,238] 156 root-INFO-Quiz review completed.
+[2025-07-08 17:41:21,683] 1025 httpx-INFO-HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+[2025-07-08 17:41:23,207] 1025 httpx-INFO-HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
