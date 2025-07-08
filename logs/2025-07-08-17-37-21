@@ -1,0 +1,62 @@
+[2025-07-08 17:41:15,318] 108 root-INFO-Attempt 1: Generating quiz...
+[2025-07-08 17:41:21,689] 117 root-INFO-Raw LLM quiz output content:
+{
+    "1": {
+        "no": "1",
+        "mcq": "What is the purpose of defining goals in web page design?",
+        "options": {
+            "a": "To make the website visually appealing",
+            "b": "To shape the design and functionality",
+            "c": "To increase server load",
+            "d": "To reduce browser compatibility"
+        },
+        "correct": "b"
+    },
+    "2": {
+        "no": "2",
+        "mcq": "Which method sends form data as part of the URL parameters?",
+        "options": {
+            "a": "GET",
+            "b": "POST",
+            "c": "PUT",
+            "d": "DELETE"
+        },
+        "correct": "a"
+    },
+    "3": {
+        "no": "3",
+        "mcq": "What is one of the key features of JavaServer Pages (JSP)?",
+        "options": {
+            "a": "Supports .NET framework",
+            "b": "Built-in Python interpreter",
+            "c": "Separation of business logic & presentation",
+            "d": "Runs on the client-side only"
+        },
+        "correct": "c"
+    },
+    "4": {
+        "no": "4",
+        "mcq": "What is a benefit of using JavaScript in web development?",
+        "options": {
+            "a": "Increases server load",
+            "b": "Limited cross-browser compatibility",
+            "c": "Supports dynamic content and interactivity",
+            "d": "Reduces security vulnerabilities"
+        },
+        "correct": "c"
+    },
+    "5": {
+        "no": "5",
+        "mcq": "Which of the following is NOT a limitation of PHP in web development?",
+        "options": {
+            "a": "Performance issues for large applications",
+            "b": "Security risks due to popularity",
+            "c": "Supports multi-threading",
+            "d": "Dependent on hosting configuration"
+        },
+        "correct": "c"
+    }
+}
+[2025-07-08 17:41:21,691] 125 root-INFO-Quiz parsed successfully.
+[2025-07-08 17:41:21,691] 154 root-INFO-Starting quiz review...
+[2025-07-08 17:41:23,212] 156 root-INFO-Quiz review completed.
