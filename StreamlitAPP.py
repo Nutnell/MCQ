@@ -9,7 +9,7 @@ from langchain_community.callbacks import get_openai_callback
 from langchain_openai import OpenAI
 from src.MCQGenerator.MCQGenerator import generate_evaluate_chain
 from src.MCQGenerator.logger import logging
-from openai import OPENAI
+from openai import OpenAI
 
 api_key = st.secrets["OPENAI_API_KEY"]
 client = OpenAI(api_key=api_key)
