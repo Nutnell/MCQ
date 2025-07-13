@@ -2,6 +2,7 @@ import os
 import json
 import traceback
 import pandas as pd
+import pathlib
 from dotenv import load_dotenv
 from src.MCQGenerator.utils import read_file, get_table_data
 import streamlit as st
@@ -14,10 +15,11 @@ from openai import OpenAI
 api_key = st.secrets["OPENAI_API_KEY"]
 client = OpenAI(api_key=api_key)
 
-with open("Response.json", "r") as file:
+current_dir = pathlib.Path(__file__).parent.resolve()
+response_file_path = current_dir / "Response.json"
+with open(response_file_path, "r") as file:
     RESPONSE_JSON = json.load(file)
 
-# print(RESPONSE_JSON) debugging
 
 # creating a title for the app
 st.title("MCQs Creator Application with Langchain 🐦⛓️")
