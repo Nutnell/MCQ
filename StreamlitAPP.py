@@ -10,6 +10,9 @@ from langchain_openai import OpenAI
 from src.MCQGenerator.MCQGenerator import generate_evaluate_chain
 from src.MCQGenerator.logger import logging
 
+api_key = st.secrets["OPENAI_API_KEY"]
+client = OpenAI(api_key=api_key)
+
 with open(r"C:\Users\nutne\codes\MCQ\Response.json", "r") as file:
     RESPONSE_JSON = json.load(file)
 
