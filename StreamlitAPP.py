@@ -14,6 +14,7 @@ from openai import OpenAI
 
 api_key = st.secrets["OPENAI_API_KEY"]
 client = OpenAI(api_key=api_key)
+
 current_dir = pathlib.Path(__file__).parent.resolve()
 response_file_path = current_dir / "Response.json"
 with open(response_file_path, "r") as file:
