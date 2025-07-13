@@ -14,7 +14,7 @@ from openai import OpenAI
 api_key = st.secrets["OPENAI_API_KEY"]
 client = OpenAI(api_key=api_key)
 
-with open(r"C:\Users\nutne\codes\MCQ\Response.json", "r") as file:
+with open("Response.json", "r") as file:
     RESPONSE_JSON = json.load(file)
 
 # print(RESPONSE_JSON) debugging
